@@ -221,7 +221,7 @@ print(df_questions_finales)
 
 
 # Dictionnaires de correspondance code -> libellé
-labels_qualite = {1: "Bon état, avec traces d'ususre visible", 2: "Comme neuf"}
+labels_qualite = {1: "Bon état, avec traces d'usure visible", 2: "Comme neuf"}
 labels_unicite = {1: "Pièce mainstream", 2: "Trouvaille unique"}
 labels_garantie = {1: "Sans retour", 2: "Retours 30j"}
 
@@ -240,7 +240,7 @@ print(df_questions_lisible)
 # ==================================================
 question_piege = pd.DataFrame([{
     'Prix_SM': 60,
-    'Qualite_SM': "Bon état, avec traces d'ususre visible",
+    'Qualite_SM': "Bon état, avec traces d'usure visible",
     'Unicite_SM': "Pièce mainstream",
     'Retours_SM': "Sans retour",
     'Prix_neuf': 40,
